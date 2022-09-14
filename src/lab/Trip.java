@@ -1,5 +1,7 @@
 package lab;
 
+import java.util.Scanner;
+
 /*
  * Create a class so that when this code is ran,
  * you will get the following.
@@ -40,6 +42,7 @@ public class Trip {
 		System.out.println("   " + trip.getTotalDistance());
 		System.out.println("   " + trip.getTotalFuel());
 		System.out.println("   " + trip.getMPG() + "\n");
+		//miles per gallon
 		
 		
 		trip.addDistance(215.8);
@@ -57,7 +60,6 @@ public class Trip {
 		trip.addFuel(7.5);
 		
 		System.out.println(trip);
-		
 	}
 	
 	
